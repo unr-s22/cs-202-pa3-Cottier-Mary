@@ -1,0 +1,13 @@
+/snap/clion/184/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/184/bin/ninja/linux/ninja -G Ninja /home/jack/cs/202/hw/cs-202-pa3-Cottier-Mary
+-- Configuring done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    main.cpp
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: cs_202_pa3_Cottier_Mary
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
