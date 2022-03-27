@@ -3,6 +3,18 @@
 
 #include <iostream>
 
+using namespace std;
 
+class Money{
+
+    int dollars;
+    int cents;
+
+
+public:
+    
+    Money(int dollars, int cents){dollars = dollars; cents = cents;}
+
+};
 
 #endif //Money_H
