@@ -13,7 +13,7 @@ class Money{
 
 public:
     
-    Money(int dollars, int cents){dollars = dollars; cents = cents;}
+    Money(int dollars, int cents){dollars = dollar; cents = cents;}
 
 };
 
