@@ -10,7 +10,6 @@ class Money{
     int dollars;
     int cents;
 
-
 public:
     
     Money(){}

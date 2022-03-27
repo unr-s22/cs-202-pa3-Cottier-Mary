@@ -14,12 +14,12 @@ public:
 
     Account(){}
 
-    void makeDeposit(){
-
+    void makeDeposit(Money money){
+        
     }
 
-    void makeWithdrawls(){
-
+    void makeWithdrawls(Money money){
+        
     }
 
 };
