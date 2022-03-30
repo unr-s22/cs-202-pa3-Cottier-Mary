@@ -5,8 +5,6 @@
 using namespace std;
 
 int main() {
-    vector<Account>
-
 
     return 0;
 }
