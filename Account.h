@@ -8,15 +8,16 @@ using namespace std;
 
 class Account{
 
-    double balance;
+    int dollars;
+    int cents;
 
 
 public:
 
-    Account(){
+    Account(int dollars, int cents){
         cout << "Account Details" << endl;
         cout << "--------------------------" << endl;
-        cout << "Current Balance:$" << balance << endl;
+        cout << "Current Balance:$" << dollars << "." << cents << endl;
         cout << "--------------------------" << endl;
         //makeDeposit;
         //makeWithdrawls;
@@ -26,12 +27,12 @@ public:
     void makeDeposit(){
         cout << "--------------------" << endl;
         cout << "Number of Deposits: "/*depositNum*/ << endl;
-        cout << "--------------------" endl;
+        cout << "--------------------" << endl;
 
         for(int i = 0; i < //depositNum; i++ ){
-            cout << "(" << i << ") " << "$" << /*Here would be the depsoit.*/. << endl;
+            cout << "(" << i << ") " << "$" << /*Here would be the depsoit.*/ << endl;
         }
-        std::cout << "--------------------" endl;
+        cout << "--------------------" endl;
 
     }
 

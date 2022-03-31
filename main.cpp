@@ -5,6 +5,6 @@
 using namespace std;
 
 int main() {
-
+    Account account(300, 23);
     return 0;
 }
