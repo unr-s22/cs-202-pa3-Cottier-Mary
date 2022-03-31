@@ -7,10 +7,6 @@
 
 class Account{
 
-    int dollars;
-    int cents;
-
-
 public:
 
     Account(int dollars, int cents){
@@ -25,38 +21,41 @@ public:
         std::cout << "Current Balance:$" << dollars << "." << cents << std::endl;
         std::cout << "--------------------------" << std::endl;
 
-        //makeDeposit;
-        //makeWithdrawls;
+        makeDeposit();
+        makeWithdrawls();
 
     }
 
     void makeDeposit(){
+        int numDeposits;
+        float depositAmount;
+
         std::cout << "--------------------" << std::endl;
-        std::cout << "Number of Deposits: "/*depositNum*/ << std::endl;
+        std::cout << "Number of Deposits: " << numDeposits << std::endl;
         std::cout << "--------------------" << std::endl;
         cout << "--------------------" << endl;
-        cout << "Number of Deposits: "/*depositNum*/ << endl;
+        cout << "Number of Deposits: " << numDeposits << endl;
         cout << "--------------------" << endl;
 
-        for(int i = 0; i < //depositNum; i++ ){
-                       std::cout << "(" << i << ") " << "$" << /*Here would be the depsoit.*/ << std::endl;
-    }
-    std::cout << "--------------------" endl;
-
-    for(int i = 0; i < /*depositNum*/; i++ ){
-        std::cout << "(" << i << ") " << "$" << /*Here would be the depsoit.*/ << std::endl;
-    }
-    std::cout << "--------------------" std::endl;
+        for(int i = 0; i < numDeposits; i++ ){
+            std::cout << "(" << i << ") " << "$" << depositAmount << std::endl;
+        }
+        std::cout << "--------------------" << std::endl;
 
     }
 
-    void makeWithdrawls(){
-        std::cout << "Number of Withdrawals: " << /*withdrawlNum*/ << std::endl;
+    void makeWithdrawls() {
+        int numWithdrawl;
+        float withdwalAmount;
+
+        std::cout << "Number of Withdrawals: " << numWithdrawl << std::endl;
         std::cout << "--------------------------" << std::endl;
 
-        for(int i = 0; i < /*withdrawlNum; i++ */){
-            std::cout << "(" << i << ") " << "$" << /*Here would be the withdral*/ << std::endl;
+        for (int i = 0; i < numWithdrawl; i++) {
+            std::cout << "(" << i << ") " << "$" << withdwalAmount << std::endl;
+        }
     }
+
 
 };
 
